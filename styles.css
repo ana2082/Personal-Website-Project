@@ -1,0 +1,94 @@
+body{
+  background-color: #EDEDED;
+  font-family: 'Quicksand', sans-serif;
+  margin: 0;
+}
+a{
+  text-decoration: none;
+  color: #EDEDED;
+}
+.top-container{
+  font-family: 'Quicksand', sans-serif;
+  /*font-weight:400;*/
+  color: #EDEDED;
+  display: block;
+  font-size: 32px;
+  letter-spacing: .05em;
+  line-height: 1.6em;
+  text-transform: none;
+  background-color: #222831;
+  padding: 1em 0 16px 0;
+  /* margin-left: 1em; */
+  width: 100%;
+}
+.logo{
+  width: 110px;
+  position: absolute;
+  top: 30px;
+  left: 16px;
+}
+h1{
+  margin: 0 auto 0 auto;
+  text-align: center;
+}
+h3{
+  margin: 10px auto 10px auto;
+  font-family: 'Lobster Two', cursive;
+  text-align: center;
+  font-size: 1em;
+}
+h2{
+  font-size: 3.5em;
+  font-weight: bold;
+}
+h4{
+  font-size: 2em;
+  font-weight: bold;
+}
+p{
+  font-size: 1.5em;
+}
+.navbar{
+  background-color: #222831;
+  height:380px;
+  width: 185px;
+  border-radius: 10px 10px 10px 10px;
+  display: inline-block;
+  position: fixed;
+  left: 20px;
+  top: 216px;
+}
+.navbar-box{
+  color: #EDEDED;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 28px;
+  margin: 10px auto 16px auto;
+  text-align: center;
+}
+a:hover{
+  color: #787A91;
+}
+.mess{
+  text-align: center;
+}
+.middle-container{
+  text-align: left;
+  color: #222831;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  margin: 4% 0 5% 0;
+}
+.intro{
+  margin-right: 30px;
+}
+.connections{
+  text-align: center;
+  margin: 12px auto 12px auto;
+}
+.icon{
+  width: 35px;
+  margin: 15px 8px 8px;
+}
+.icon:hover{
+  opacity: 0.84;
+}
