@@ -7,59 +7,56 @@ a{
   text-decoration: none;
   color: #EDEDED;
 }
-.top-container{
-  font-family: 'Quicksand', sans-serif;
-  /*font-weight:400;*/
-  color: #EDEDED;
-  display: block;
-  font-size: 32px;
-  letter-spacing: .05em;
-  line-height: 1.6em;
-  text-transform: none;
-  background-color: #222831;
-  padding: 1em 0 16px 0;
-  /* margin-left: 1em; */
-  width: 100%;
-  margin: 0;
-  position: fixed;
-  top: 0;
-}
 .logo{
   width: 110px;
-  position: absolute;
-  top: 30px;
-  left: 16px;
-}
-h1{
-  margin: 0 auto 0 auto;
-  text-align: center;
-}
-h3{
-  margin: 10px auto 10px auto;
-  font-family: 'Lobster Two', cursive;
-  text-align: center;
-  font-size: 1em;
-}
-h2{
-  font-size: 3.5em;
-  font-weight: bold;
-}
-h4{
-  font-size: 2em;
-  font-weight: bold;
 }
 p{
   font-size: 1.5em;
 }
+.tytle{
+  margin: 0 auto 16px auto;
+  text-align: center;
+  line-height: 1.6em;
+  width: 100%;
+}
 .navbar{
+  padding-top: 16px;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+.custm{
+  display: none;
+}
+.bg-darkk{
   background-color: #222831;
-  height:380px;
-  width: 185px;
+}
+.tytle h3{
+  font-family: 'Lobster Two', cursive;
+  font-size: 1.5em;
+  letter-spacing: .05em;
+  color: #EDEDED;
+  text-transform: none;
+}
+.tytle h1{
+  font-size: 2em;
+  letter-spacing: .05em;
+  font-family: 'Quicksand', sans-serif;
+  color: #EDEDED;
+  text-transform: none;
+}
+.navbarr{
+  background-color: #222831;
+  height:360px;
+  width: 168px;
   border-radius: 10px 10px 10px 10px;
   display: inline-block;
   position: fixed;
   left: 20px;
   top: 210px;
+  border: 2px;
+  border-style: solid;
+  border-color: #EDEDED;
 }
 .navbar-box{
   color: #EDEDED;
@@ -74,7 +71,7 @@ a:hover{
 .mess{
   text-align: center;
 }
-.middle-container{
+#middle-container{
   text-align: left;
   color: #222831;
   font-family: 'Quicksand', sans-serif;
@@ -83,6 +80,11 @@ a:hover{
 }
 .intro{
   margin-right: 30px;
+  font-weight: bold;
+}
+.my-picture{
+  border-radius: 10px;
+  width: 86%;
 }
 .connections{
   text-align: center;
@@ -94,4 +96,70 @@ a:hover{
 }
 .icon:hover{
   opacity: 0.84;
+}
+#skills-container{
+  background-color: #222831;
+  color: #EDEDED;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: normal;
+  text-align: center;
+  font-size: 1em;
+  height: 500px;
+  margin: 30px auto 15px auto;
+  padding: 15px 18px 15px 18px;
+}
+.change{
+  position: absolute;
+  left: 10px;
+  top: 20px;
+}
+#skills-container .midd{
+  padding-left: 50px;
+}
+@media (max-width: 800px){
+  .logo{
+    width: 60px;
+  }
+  .change{
+    top: 40px;
+  }
+  .navbarr{
+    display: none;
+  }
+  .my-picture{
+    width: 45%;
+  }
+  /* .navbarr{
+    width: 16%;
+  } */
+  /* .navbar-box{
+    font-size: 20px;
+  } */
+  #middle-container{
+    text-align: center;
+  }
+  .intro{
+    text-align: left;
+    margin-left: 20px;
+  }
+  .midd{
+    display: none;
+
+  }
+  .tytle{
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 7px;
+  }
+  .tytle h1{
+    font-size: 1.8em;
+    letter-spacing: .05em;
+  }
+  .tytle h3{
+    font-size: 1.28em;
+    letter-spacing: .02em;
+  }
+  .custm{
+    display: inline-block;
+  }
 }
