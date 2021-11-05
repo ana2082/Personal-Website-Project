@@ -13,17 +13,17 @@ a{
 p{
   font-size: 1.5em;
 }
-.tytle{
-  margin: 0 auto 16px auto;
-  text-align: center;
-  line-height: 1.6em;
-  width: 100%;
-}
 .navbar{
   padding-top: 16px;
   position: fixed;
   width: 100%;
   z-index: 10;
+}
+.tytle{
+  margin: 0 auto 16px auto;
+  text-align: center;
+  line-height: 1.6em;
+  width: 100%;
 }
 .custm{
   display: none;
@@ -54,7 +54,7 @@ p{
   position: fixed;
   left: 20px;
   top: 210px;
-  border: 2px;
+  border: 1.5px;
   border-style: solid;
   border-color: #EDEDED;
 }
@@ -81,6 +81,15 @@ a:hover{
 .intro{
   margin-right: 30px;
   font-weight: bold;
+}
+.btn-dark{
+  background-color: #222831;
+}
+.btn: hover{
+  opacity: 0.1;
+}
+.btn{
+  margin: 36px 180px 10px 200px;
 }
 .my-picture{
   border-radius: 10px;
