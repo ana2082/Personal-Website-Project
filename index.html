@@ -14,23 +14,22 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&family=Quicksand:wght@300&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-darkk">
+  <nav class="navbar navbar-expand-lg navbar-dark">
     <div class="container-fluid">
-      <div class="change">
-        <img src="images/LetterA-modified.png" alt="" class="logo">
-      </div>
+      <img src="images/LetterA-modified.png" alt="" class="logo">
       <div class="navbar-brand tytle">
         <h1>ANANYA</h1>
-        <h3 class="subtitle">Designer, Programmer and a Student</h3>
+        <h3 class="subtitle">Web Developer, Programmer</h3>
       </div>
-      <button class="navbar-toggler dropdown-toggler custm" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler dropdown-toggler collapseButton" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav  ms-auto custm">
+        <ul class="navbar-nav  ms-auto collapsibleMenu">
           <li class="navbar-item">
             <a class="nav-link" href="#middle-container">About</a>
           </li>
@@ -73,43 +72,22 @@
       <a href="#">Resume</a>
     </div>
   </div>
-  <div style="height: 150px;">
 
-  </div>
   <div id="middle-container">
-    <div class="row">
-      <div class="col-md-3 midd">
-      </div>
-      <div class=" col-1  custm">
-      </div>
-      <div class="col-md-5 intro">
-        <h2 style="font-weight: bold;">Ananya Garg</h2>
-        <h4 style="font-weight: bold;">Delhi Technological University '24</h4>
-        <br>
-        <p>I am currently a Software Engineering student at DTU. I am learning Web Development. I love designing things. </p>
-        <br>
-        <p>I am interested in Web Design and Development, Finance, Cloud, Machine  Learning to solve real-world problems. I look forward to contribute to open-source in the fields of Web Development and Machine Learning. </p>
-        <a href="https://drive.google.com/file/d/1e9zN-ga7OVxc8xZDDbc8ELIcknRmm0p0/view?usp=sharing">
-          <button type="button" name="button" class="btn btn-dark btn-lg">Download CV </button>
-        </a>
-      </div>
-      <div class="col-md-3 mess midd">
-        <img src="Proff_Pic1.jpeg" alt="" class="my-picture">
-        <div class="connections">
-          <a href="https://www.linkedin.com/in/ananya-g-014090119">
-            <img class="icon" src="images/linkedin.png" alt="">
-          </a>
-          <a href="https://github.com/ana2082">
-            <img class="icon" src="images/github.png" alt="">
-          </a>
-          <a href="mailto:ananya_se20b8_08@dtu.ac.in">
-            <img class="icon" src="images/email.png" alt="">
-          </a>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-7 intro">
+          <h2>Ananya Garg</h2>
+          <h4>Software Engineering Sophomore DTU'24</h4>
+          <br>
+          <p>Hello! I am Ananya. I am pursuing my Bachelors in Software Engineering from Delhi Technological University(formerly DCE), India. </p>
+          <br>
+          <p>I am interested in learning about Software Design & Development, Web Development, Machine Learning, Cloud and Finance. Currently, I'm learning Web Development to build & design websites. I look forward to contribute to open-source
+            projects of web development using my acquired skillset. </p>
         </div>
-      </div>
-      <div class="col-md-5 mess custm">
-        <img src="Proff_Pic1.jpeg" alt="" class="my-picture">
-        <div class="connections">
+        <div class="col-md-4 visible">
+          <img src="Proff_Pic1.jpeg" alt="" class="my-picture">
+          <br>
           <a href="https://www.linkedin.com/in/ananya-g-014090119">
             <img class="icon" src="images/linkedin.png" alt="">
           </a>
@@ -119,21 +97,78 @@
           <a href="mailto:ananya_se20b8_08@dtu.ac.in">
             <img class="icon" src="images/email.png" alt="">
           </a>
+          <div class="downloadbtn">
+            <button type="button" name="button" class="btn btn-dark btn-lg">
+              <a href="https://drive.google.com/file/d/1e9zN-ga7OVxc8xZDDbc8ELIcknRmm0p0/view?usp=sharing">
+                Download CV </a>
+            </button>
+          </div>
         </div>
       </div>
     </div>
   </div>
+  <div class="skills-border" style="background-color: #FFCCD2; height: 50px;">
+  </div>
   <div id="skills-container">
-    <div class="row">
-      <div class="col-2">
-      </div>
-      <div class="col-8 midd">
-        <p>I have knowledge about C, C++, HTML, CSS, Bootstrap, JavaScript. Currently focussing on developing these skills more.</p><br>
-        <p> Also, I've had hands-on-experience with Google Cloud and its utilities.</p>
-      </div>
-      <div class="col-8 custm">
-        <p>I have knowledge about C, C++, HTML, CSS, Bootstrap, JavaScript. Currently focussing on developing these skills more.</p><br>
-        <p> Also, I've had hands-on-experience with Google Cloud and its utilities.</p>
+    <div class="container">
+      <h2>Professional Skills</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="skill-title">
+            <h4>C/C++</h4>
+          </div>
+          <div class="skill-proficiency eighty-five-percent">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="skill-title">
+            <h4>Data Structures</h4>
+          </div>
+          <div class="skill-proficiency ninety-percent">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="skill-title">
+            <h4>OOP</h4>
+          </div>
+          <div class="skill-proficiency eighty-seven-percent">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="skill-title">
+            <h4>HTML</h4>
+          </div>
+          <div class="skill-proficiency ninety-percent">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="skill-title">
+            <h4>CSS</h4>
+          </div>
+          <div class="skill-proficiency eighty-five-percent">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="skill-title">
+            <h4>BootStrap</h4>
+          </div>
+          <div class="skill-proficiency eighty-percent">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="skill-title">
+            <h4>JavaScript</h4>
+          </div>
+          <div class="skill-proficiency eighty-percent">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="skill-title">
+            <h4>Git/GitHub</h4>
+          </div>
+          <div class="skill-proficiency eighty-two-percent">
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -144,9 +179,6 @@
 
   </div>
   <div id="projects-container" style="height: 500px;">
-
-  </div>
-  <div style="height: 500px;">
 
   </div>
   <div id="bottom-most container" style="background-color: #222831; height: 500px;">
