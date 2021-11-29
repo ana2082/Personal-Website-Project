@@ -1,174 +1,432 @@
-body{
+body {
   background-color: #EDEDED;
   font-family: 'Quicksand', sans-serif;
   margin: 0;
 }
-a{
+
+a {
   text-decoration: none;
   color: #EDEDED;
+  text-align: center;
 }
-.logo{
-  width: 110px;
-}
-p{
+
+p {
   font-size: 1.5em;
+  width: 90%;
 }
-.navbar{
-  padding-top: 16px;
+
+.navbar {
+  padding: 16px 0 16px 0;
   position: fixed;
   width: 100%;
   z-index: 10;
+  background-color: #222831;
+  top: 0;
 }
-.tytle{
-  margin: 0 auto 16px auto;
+
+.logo {
+  width: 100px;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  bottom: 20px;
+}
+
+.tytle {
+  margin: 0 auto 0 auto;
   text-align: center;
   line-height: 1.6em;
   width: 100%;
+  letter-spacing: .07em;
+  color: #EDEDED;
 }
-.custm{
-  display: none;
+.tytle h1 {
+  font-size: 2em;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
 }
-.bg-darkk{
-  background-color: #222831;
-}
-.tytle h3{
+
+.tytle h3 {
   font-family: 'Lobster Two', cursive;
   font-size: 1.5em;
-  letter-spacing: .05em;
-  color: #EDEDED;
-  text-transform: none;
 }
-.tytle h1{
-  font-size: 2em;
-  letter-spacing: .05em;
-  font-family: 'Quicksand', sans-serif;
-  color: #EDEDED;
-  text-transform: none;
+.collapseButton, .collapsibleMenu {
+  display: none;
 }
-.navbarr{
+.navbarr {
   background-color: #222831;
-  height:360px;
+  height: 360px;
   width: 168px;
   border-radius: 10px 10px 10px 10px;
   display: inline-block;
   position: fixed;
   left: 20px;
-  top: 210px;
+  top: 260px;
   border: 1.5px;
   border-style: solid;
-  border-color: #EDEDED;
+  /* border-color: #EDEDED; */
 }
-.navbar-box{
+.navbar-box {
   color: #EDEDED;
   font-family: 'Quicksand', sans-serif;
   font-size: 28px;
   margin: 10px auto 16px auto;
   text-align: center;
 }
-a:hover{
+
+a:hover {
   color: #787A91;
+  text-decoration: underline;
+  text-decoration-thickness: 1.6px;
 }
-.mess{
-  text-align: center;
-}
-#middle-container{
+
+
+#middle-container {
   text-align: left;
   color: #222831;
   font-family: 'Quicksand', sans-serif;
   font-weight: bold;
-  margin: 4% 0 5% 0;
+  padding-top: 260px;
+  margin-bottom: 50px;
 }
-.intro{
+
+.intro {
   margin-right: 30px;
+  text-align: left;
   font-weight: bold;
 }
-.btn-dark{
+
+.btn-dark {
   background-color: #222831;
 }
-.btn: hover{
+
+.btn: hover {
   opacity: 0.1;
 }
-.btn{
-  margin: 36px 180px 10px 200px;
+
+.btn {
+  margin: 36px auto 18px auto;
+  position: relative;
+  border-radius: 14px;
 }
-.my-picture{
+
+.downloadbtn {
+  width: 100%;
+}
+
+.downloadbtn a {
+  width: 100%;
+}
+
+.my-picture {
   border-radius: 10px;
-  width: 86%;
+  width: 84%;
 }
-.connections{
+
+.visible{
   text-align: center;
-  margin: 12px auto 12px auto;
-} 
-.icon{
-  width: 35px;
+}
+
+.icon {
+  width: 40px;
   margin: 15px 8px 8px;
 }
-.icon:hover{
+
+.icon:hover {
   opacity: 0.84;
 }
-#skills-container{
+
+#skills-container {
   background-color: #222831;
   color: #EDEDED;
   font-family: 'Quicksand', sans-serif;
   font-weight: normal;
   text-align: center;
   font-size: 1em;
-  height: 500px;
-  margin: 30px auto 15px auto;
-  padding: 15px 18px 15px 18px;
+  padding: 145px 0 150px 0;
 }
-.change{
-  position: absolute;
-  left: 10px;
-  top: 20px;
+
+.container h2 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2em;
+  font-weight: normal;
+  text-align: center;
+  color: #EDEDED;
+  padding: 0;
+  margin-bottom: 40px;
 }
-#skills-container .midd{
-  padding-left: 50px;
+
+.skills-container .container {
+  padding: 0 15px 0 15px;
+  margin: 0 auto 0 auto;
+  width: 100%;
 }
-@media (max-width: 800px){
+
+.skill-proficiency{
+  height: 20px;
+  margin: 16px 8px;
+  background-color: #FFCCD2;
+  border-radius: 10px;
+}
+
+.ninety-percent{
+  width: 90%;
+}
+
+.eighty-five-percent{
+  width: 85%;
+}
+
+.eighty-seven-percent{
+  width: 87%;
+}
+
+.eighty-percent{
+  width: 80%;
+}
+
+.eighty-two-percent{
+  width: 82%;
+}
+
+@media (min-width: 1399.98px) {
+  #middle-container{
+    padding-left: 240px;
+  }
+  .intro h2{
+    font-weight: bold;
+    font-size: 2.3em;
+  }
+  .intro h4{
+    font-weight: bold;
+    font-size: 1.7em;
+  }
+  .intro p{
+    font-size: 1.5em;
+    text-align: left;
+    width: 100%;
+    letter-spacing: 0.5px;
+  }
+  #skills-container{
+    padding-left: 180px;
+  }
+
+}
+
+/* xxl->extra large devices->desktops having less than 1400px */
+@media (min-width: 1199.98px) and (max-width: 1399.98px){
+  #middle-container{
+    padding-left: 240px;
+  }
+  .intro h2{
+    font-weight: bold;
+    font-size: 2.25em;
+  }
+  .intro h4{
+    font-weight: bold;
+    font-size: 1.6em;
+  }
+  .intro p{
+    font-size: 1.4em;
+    text-align: left;
+    width: 100%;
+    letter-spacing: 0.5px;
+  }
+  #skills-container{
+    padding-left: 170px;
+  }
+
+}
+
+/* xl->large devices->desktops having less than 1200px */
+@media (min-width: 991.98px) and (max-width: 1199.98px){
+  #middle-container{
+    padding-left: 240px;
+  }
+  .intro h2{
+    font-weight: bold;
+    font-size: 2.2em;
+  }
+  .intro h4{
+    font-weight: bold;
+    font-size: 1.4em;
+  }
+  .intro p{
+    font-size: 1.4em;
+    text-align: left;
+    width: 100%;
+    letter-spacing: 0.5px;
+  }
+  #skills-container{
+    padding-left: 170px;
+  }
+}
+
+/* lg->medium devices->tablets */
+@media (min-width: 767.98px) and (max-width: 991.98px) {
+  #middle-container{
+    padding-left: 220px;
+  }
+  .intro h2{
+    font-weight: bold;
+    font-size: 2em;
+  }
+  .intro h4{
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+  .intro p{
+    font-size: 1.25em;
+    text-align: left;
+    width: 100%;
+    letter-spacing: 0.5px;
+  }
+  .visible .icon{
+    width: 25px;
+    margin: 15px 5px 0;
+  }
+  #skills-container{
+    padding-left: 170px;
+  }
+}
+
+/* md->small devices->landscape phones */
+@media (max-width: 767.98px) {
+  .logo {
+    width: 80px;
+    left: 17px;
+    top: 24px;
+    bottom: 10px;
+  }
+  .tytle{
+    width: 80%;
+  }
+  .tytle h1{
+    font-size: 1.75em;
+  }
+  .tytle h3{
+    font-size: 1.25em;
+    padding-left: 20px;
+  }
+  .collapseButton, .collapsibleMenu{
+    display: inline-block;
+  }
+  .navbarr{
+    display: none;
+  }
+  #middle-container{
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 240px;
+  }
+  .intro h2{
+    font-weight: bold;
+    font-size: 2em;
+  }
+  .intro h4{
+    font-weight: bold;
+    font-size: 1.3em;
+  }
+  .intro p{
+    font-size: 1.25em;
+    text-align: left;
+    width: 100%;
+    letter-spacing: 0.5px;
+  }
+  .visible{
+    text-align: center;
+  }
+  .my-picture{
+    margin: 50px 0 30px 0;
+  }
+
+}
+
+
+/* sm->extra small devices-> portrait phones*/
+@media (max-width: 575.98px) {
+  .logo{
+    width: 65px;
+    left: 15px;
+    top: 30px;
+    bottom: 15px;
+  }
+  .tytle h1{
+    padding-left: 50px;
+  }
+  .tytle h3{
+    padding-left: 60px;
+  }
+  .navbarr{
+    display: none;
+  }
+  .visible .my-picture{
+    width: 80%;
+  }
+  .btn{
+    margin-top: 20px;
+  }
+}
+
+
+
+
+/* @media (max-width: 767.98px){
+  .btn{
+    margin: 30px 260px 18px 260px;
+  }
+} */
+/* @media (max-width: 790px){
   .logo{
     width: 60px;
-  }
-  .change{
+    position: absolute;
     top: 40px;
   }
   .navbarr{
     display: none;
   }
-  .my-picture{
-    width: 45%;
+  .downloadbtn{
+    margin: auto;
   }
-  /* .navbarr{
-    width: 16%;
-  } */
-  /* .navbar-box{
-    font-size: 20px;
-  } */
-  #middle-container{
-    text-align: center;
-  }
-  .intro{
-    text-align: left;
-    margin-left: 20px;
-  }
-  .midd{
-    display: none;
-
-  }
-  .tytle{
-    width: 70%;
-    margin-left: 15%;
-    margin-bottom: 7px;
-  }
-  .tytle h1{
-    font-size: 1.8em;
-    letter-spacing: .05em;
-  }
-  .tytle h3{
-    font-size: 1.28em;
-    letter-spacing: .02em;
-  }
-  .custm{
-    display: inline-block;
-  }
+  .btn{
+    /* margin: 30px 260px 18px 260px; */
+/* margin: 30px auto 18px auto;
 }
+
+.my-picture {
+  width: 45%;
+}
+
+.custm {
+  display: inline-block;
+}
+
+#middle-container {
+  text-align: center;
+}
+
+.intro {
+  text-align: left;
+  margin-left: 20px;
+}
+
+.midd {
+  display: none;
+}
+
+.tytle {
+  width: 70%;
+  margin-left: 15%;
+  margin-bottom: 7px;
+}
+
+.tytle h1 {
+  font-size: 1.8em;
+  letter-spacing: .05em;
+}
+
+.tytle h3 {
+  font-size: 1.28em;
+  letter-spacing: .02em;
+}
+} */
