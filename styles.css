@@ -55,16 +55,16 @@ p {
 }
 .navbarr {
   background-color: #222831;
-  height: 360px;
+  height: 300px;
   width: 168px;
   border-radius: 10px 10px 10px 10px;
   display: inline-block;
   position: fixed;
   left: 20px;
   top: 260px;
-  border: 1.5px;
+  border: 2px;
   border-style: solid;
-  /* border-color: #EDEDED; */
+  /* border-color: #FFCCD2; */
 }
 .navbar-box {
   color: #EDEDED;
@@ -144,6 +144,11 @@ a:hover {
   text-align: center;
   font-size: 1em;
   padding: 145px 0 150px 0;
+  margin-bottom: 50px;
+}
+
+#skills-container .container-fluid{
+  width: 100%;
 }
 
 .container h2 {
@@ -189,28 +194,59 @@ a:hover {
   width: 82%;
 }
 
+#experience-container{
+  padding: 150px 0 150px 0;
+}
+.exp-header{
+  font-weight: bolder;
+  font-size: 0.38em;
+  letter-spacing: 0.5px;
+  width: 100%;
+  margin-bottom: 28px;
+}
+.exp-content{
+  font-weight: bolder;
+  font-size: 1.3em;
+  letter-spacing: 0.5px;
+  padding-left: 80px;
+  text-align: justify;
+}
+
+.exp-tag{
+  font-weight: bold;
+}
+
+.exp-row{
+  margin-bottom: 40px;
+}
+
+.bullet-1, .bullet-2, .bullet-3, .bullet-4, .bullet-5, .bullet-6, .bullet-7, .bullet-8{
+  width:100%;
+  margin-bottom: 20px;
+}
+
 @media (min-width: 1399.98px) {
-  #middle-container{
-    padding-left: 240px;
+  .exp-header h2{
+    font-weight: bolder;
+    font-size: 6em;
   }
   .intro h2{
     font-weight: bold;
-    font-size: 2.3em;
+    font-size: 2.25em;
   }
   .intro h4{
     font-weight: bold;
-    font-size: 1.7em;
+    font-size: 1.6em;
   }
-  .intro p{
-    font-size: 1.5em;
-    text-align: left;
-    width: 100%;
-    letter-spacing: 0.5px;
+  #middle-container{
+    padding-left: 240px;
   }
   #skills-container{
-    padding-left: 180px;
+    padding-left: 170px;
   }
-
+  #experience-container{
+    padding-left: 280px;
+  }
 }
 
 /* xxl->extra large devices->desktops having less than 1400px */
@@ -235,7 +271,13 @@ a:hover {
   #skills-container{
     padding-left: 170px;
   }
-
+  #experience-container{
+    padding-left: 280px;
+  }
+  .exp-header h2{
+    font-weight: bolder;
+    font-size: 6em;
+  }
 }
 
 /* xl->large devices->desktops having less than 1200px */
@@ -259,6 +301,13 @@ a:hover {
   }
   #skills-container{
     padding-left: 170px;
+  }
+  #experience-container{
+    padding-left: 240px;
+  }
+  .exp-header h2{
+    font-weight: bolder;
+    font-size: 5.6em;
   }
 }
 
@@ -288,6 +337,17 @@ a:hover {
   #skills-container{
     padding-left: 170px;
   }
+  #experience-container{
+    padding-left: 220px;
+  }
+  .exp-header h2{
+    font-weight: bold;
+    font-size: 5em;
+  }
+  .exp-content{
+    font-size: 1.1rem;
+    padding-left: 40px;
+  }
 }
 
 /* md->small devices->landscape phones */
@@ -315,9 +375,7 @@ a:hover {
     display: none;
   }
   #middle-container{
-    padding-left: 60px;
-    padding-right: 60px;
-    padding-top: 240px;
+    padding: 240px 40px 0;
   }
   .intro h2{
     font-weight: bold;
@@ -338,8 +396,20 @@ a:hover {
   }
   .my-picture{
     margin: 50px 0 30px 0;
+    width: 70%;
   }
-
+  .exp-header h2{
+    font-weight: bold;
+    font-size: 5em;
+  }
+  #experience-container{
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .exp-content{
+    font-size: 1.05rem;
+    padding-left: 20px;
+  }
 }
 
 
@@ -365,6 +435,17 @@ a:hover {
   }
   .btn{
     margin-top: 20px;
+  }
+  .exp-header h2{
+    font-weight: bold;
+    font-size: 4.7em;
+  }
+  .bullet-1, .bullet-2, .bullet-3, .bullet-4, .bullet-5, .bullet-6, .bullet-7, .bullet-8{
+    width:30%;
+  }
+  .exp-tag{
+    text-align: center;
+    margin-bottom: 20px;
   }
 }
 
