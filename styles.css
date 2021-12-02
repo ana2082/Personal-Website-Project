@@ -137,7 +137,7 @@ a:hover {
   font-weight: normal;
   text-align: center;
   color: #EDEDED;
-  letter-spacing: 16px;
+  letter-spacing: 8px;
   margin-bottom: 40px;
 }
 .skills-container .container {
@@ -168,10 +168,11 @@ a:hover {
 }
 .exp-header{
   font-weight: bolder;
-  font-size: 0.38em;
+  font-size: 0.65em;
   letter-spacing: 0.5px;
   width: 100%;
-  margin-bottom: 28px;
+  text-align: center;
+  margin-bottom: 35px;
 }
 .exp-content{
   font-weight: bolder;
@@ -199,7 +200,7 @@ a:hover {
   font-size: 2.8em;
   font-weight: light;
   letter-spacing: 16px;
-  margin-bottom: 40px;
+  margin-bottom: 65px;
 }
 .dtu-image, .aps-image, .vdjs-image{
   width: 100%;
@@ -242,6 +243,16 @@ a:hover {
   width: 40%;
   /* border-style: dotted; */
 }
+#contact-container{
+  padding: 180px 0 100px 0;
+}
+.contact-header h2{
+  font-size: 3em;
+  color: #F9DFDC;
+  text-align: center;
+  font-weight: lighter;
+  font-family: 'Lobster Two', cursive;
+}
 
 @media (min-width: 1399.98px) {
   .exp-header h2{
@@ -249,24 +260,30 @@ a:hover {
     font-size: 6em;
   }
   .intro h2{
-    font-weight: bold;
-    font-size: 2.25em;
+    font-weight: bolder;
+    font-size: 2.6em;
   }
   .intro h4{
     font-weight: bold;
     font-size: 1.6em;
   }
+  .intro p{
+    font-size: 1.3em;
+    text-align: left;
+    width: 100%;
+    letter-spacing: 0.5px;
+  }
   #middle-container{
     padding-left: 240px;
   }
-  #skills-container{
+  .sk-container{
     padding-left: 170px;
   }
-  #experience-container{
+  .ex-container{
     padding-left: 280px;
   }
-  #education-container{
-    padding-left: 220px;
+  .ed-container{
+    padding-left: 260px;
   }
 }
 
@@ -276,35 +293,36 @@ a:hover {
     padding-left: 240px;
   }
   .intro h2{
-    font-weight: bold;
-    font-size: 2.25em;
+    font-weight: bolder;
+    font-size: 2.5em;
   }
   .intro h4{
     font-weight: bold;
-    font-size: 1.6em;
+    font-size: 1.5em;
   }
   .intro p{
-    font-size: 1.4em;
+    font-size: 1.2em;
     text-align: left;
     width: 100%;
     letter-spacing: 0.5px;
   }
-  #skills-container{
+  .sk-container{
     padding-left: 170px;
   }
   .container h2{
     font-size: 2.8em;
     letter-spacing: 8px;
   }
-  #experience-container{
+  .ex-container{
     padding-left: 280px;
   }
   .exp-header h2{
     font-weight: bolder;
-    font-size: 6em;
+    font-size: 5em;
+    padding-left: 120px;
   }
-  #education-container{
-    padding-left: 220px;
+  .ed-container{
+    padding-left: 260px;
   }
 }
 
@@ -314,38 +332,39 @@ a:hover {
     padding-left: 240px;
   }
   .intro h2{
-    font-weight: bold;
-    font-size: 2.2em;
+    font-weight: bolder;
+    font-size: 2.5em;
   }
   .intro h4{
     font-weight: bold;
-    font-size: 1.4em;
+    font-size: 1.5em;
   }
   .intro p{
-    font-size: 1.4em;
+    font-size: 1.2em;
     text-align: left;
     width: 100%;
     letter-spacing: 0.5px;
   }
-  #skills-container{
+  .sk-container{
     padding-left: 170px;
   }
   .container h2{
     font-size: 2.8em;
     letter-spacing: 2px;
   }
-  #experience-container{
+  .ex-container{
     padding-left: 240px;
   }
   .exp-header h2{
     font-weight: bolder;
-    font-size: 5.6em;
+    font-size: 4.5em;
+    padding-left: 120px;
   }
-  #education-container{
+  .ed-container{
     padding-left: 220px;
   }
   .dtu-container, .aps-container, .vdjs-container{
-    padding-left: 0;
+    padding-left: 40px;
   }
 }
 
@@ -355,42 +374,49 @@ a:hover {
     padding-left: 220px;
   }
   .intro h2{
-    font-weight: bold;
-    font-size: 2em;
+    font-weight: bolder;
+    font-size: 2.5em;
   }
   .intro h4{
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1.5em;
   }
   .intro p{
-    font-size: 1.25em;
+    font-size: 1.2em;
     text-align: left;
     width: 100%;
     letter-spacing: 0.5px;
+  }
+  .navbarr{
+    width: 158px;
   }
   .visible .icon{
     width: 25px;
     margin: 15px 5px 0;
   }
-  #skills-container{
-    padding-left: 170px;
+  .sk-container{
+    padding-left: 140px;
   }
   .container h2{
     font-size: 2.8em;
     letter-spacing: 2px;
   }
   #experience-container{
+    padding: 160px 0 100px 0;
+  }
+  .ex-container{
     padding-left: 220px;
   }
   .exp-header h2{
     font-weight: bold;
-    font-size: 5em;
+    font-size: 3.6em;
+    padding-left: 150px;
   }
   .exp-content{
-    font-size: 1.1rem;
+    font-size: 1.18rem;
     padding-left: 40px;
   }
-  #education-container{
+  .ed-container{
     padding-left: 220px;
   }
   .dtu-container, .aps-container, .vdjs-container{
@@ -426,15 +452,15 @@ a:hover {
     padding: 240px 40px 0;
   }
   .intro h2{
-    font-weight: bold;
-    font-size: 2em;
+    font-weight: bolder;
+    font-size: 2.45em;
   }
   .intro h4{
     font-weight: bold;
-    font-size: 1.3em;
+    font-size: 1.5em;
   }
   .intro p{
-    font-size: 1.25em;
+    font-size: 1.2em;
     text-align: left;
     width: 100%;
     letter-spacing: 0.5px;
@@ -444,9 +470,9 @@ a:hover {
   }
   .my-picture{
     margin: 50px 0 30px 0;
-    width: 70%;
+    width: 60%;
   }
-  #skills-container{
+  .sk-container{
     padding: 80px 24px;
   }
   .container h2{
@@ -455,21 +481,26 @@ a:hover {
   }
   .exp-header h2{
     font-weight: bold;
-    font-size: 5em;
+    font-size: 4.5em;
+    padding: 0 30px;
   }
-  #experience-container{
-    padding: 140px 24px;
+  .exp-header{
+      margin: 0;
+  }
+  .ex-container{
+    padding: 80px 40px 40px 40px;
   }
   .exp-content{
-    font-size: 1.05rem;
+    font-size: 1.15rem;
     padding-left: 20px;
   }
-  #education-container{
-    padding: 140px 24px;
+  .ed-container{
+    padding: 80px 60px 40px 75px;
   }
   .ed-header{
     font-size: 2.5em;
     letter-spacing: 13px;
+    margin: 0;
   }
   .ed-img{
     width: 40%;
@@ -480,6 +511,9 @@ a:hover {
     margin-top: 25px;
     padding-left: 15px;
     padding-right: 15px;
+  }
+  #contact-container{
+    padding: 140px 24px;
   }
 }
 
@@ -516,5 +550,8 @@ a:hover {
   .exp-tag{
     text-align: center;
     margin-bottom: 20px;
+  }
+  .ed-container{
+    padding: 90px 28px 40px 28px;
   }
 }
