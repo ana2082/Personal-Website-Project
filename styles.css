@@ -1,5 +1,5 @@
 body {
-  background-color: #EDEDED;
+  background-color: #F8F1F1;
   font-family: 'Quicksand', sans-serif;
   margin: 0;
 }
@@ -72,6 +72,7 @@ a:hover {
   text-decoration-thickness: 1.6px;
 }
 #middle-container {
+  background-color: #F8F1F1;
   text-align: left;
   color: #222831;
   font-family: 'Quicksand', sans-serif;
@@ -148,7 +149,7 @@ a:hover {
 .skill-proficiency{
   height: 20px;
   margin: 16px 8px;
-  background-color: #F9DFDC;
+  background-color: #BBE1FA;
   border-radius: 10px;
 }
 .ninety-percent{
@@ -165,6 +166,7 @@ a:hover {
 }
 #experience-container{
   padding: 180px 0 100px 0;
+  background-color: #D3E0EA;
 }
 .exp-header{
   font-weight: bolder;
@@ -244,16 +246,57 @@ a:hover {
   /* border-style: dotted; */
 }
 #contact-container{
-  padding: 180px 0 100px 0;
+  padding: 180px 20px 100px;
 }
 .contact-header h2{
-  font-size: 3em;
-  color: #F9DFDC;
+  font-size: 2.8em;
+  color: #222831;
   text-align: center;
-  font-weight: lighter;
-  font-family: 'Lobster Two', cursive;
+  /* font-weight: lighter; */
+  /* font-family: 'Lobster Two', cursive; */
+  margin-bottom: 100px;
 }
-
+.contact-card-grid{
+  padding: 5px;
+  /* margin-top: 80px;
+  display: inline-block; */
+}
+.contact-card{
+  width: 100%;
+  background-color: #EDEDED;
+  height: 250px;
+  border-radius: 10px;
+  position: relative;
+  padding-top: 100px;
+}
+.cardtext{
+    text-align: center;
+}
+.card-img{
+  width: 100%;
+  position: absolute;
+}
+.image-holder{
+  width: 16%;
+  padding: 10px;
+  border-radius: 4px;
+  position: absolute;
+  top: -15%;
+  left: 42%;
+}
+.round{
+  border-radius: 100%;
+}
+.c1{
+  border-radius: 28%;
+}
+.c2{
+  border-radius: 10%;
+}
+.button-div{
+  width: 100%;
+  text-align: center;
+}
 @media (min-width: 1399.98px) {
   .exp-header h2{
     font-weight: bolder;
@@ -284,6 +327,10 @@ a:hover {
   }
   .ed-container{
     padding-left: 260px;
+  }
+  .co-container{
+    padding-left: 200px;
+    padding-right: 10px;
   }
 }
 
@@ -323,6 +370,10 @@ a:hover {
   }
   .ed-container{
     padding-left: 260px;
+  }
+  .co-container{
+    padding-left: 200px;
+    padding-right: 10px;
   }
 }
 
@@ -365,6 +416,10 @@ a:hover {
   }
   .dtu-container, .aps-container, .vdjs-container{
     padding-left: 40px;
+  }
+  .co-container{
+    padding-left: 200px;
+    padding-right: 10px;
   }
 }
 
@@ -421,6 +476,10 @@ a:hover {
   }
   .dtu-container, .aps-container, .vdjs-container{
     padding-left: 25px;
+  }
+  .co-container{
+    padding-left: 200px;
+    padding-right: 10px;
   }
 }
 
@@ -515,6 +574,10 @@ a:hover {
   #contact-container{
     padding: 140px 24px;
   }
+  .co-container{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 
 /* sm->extra small devices-> portrait phones*/
@@ -553,5 +616,8 @@ a:hover {
   }
   .ed-container{
     padding: 90px 28px 40px 28px;
+  }
+  .contact-card{
+    padding-top: 80px;
   }
 }
