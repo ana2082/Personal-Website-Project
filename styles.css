@@ -148,6 +148,7 @@ a:hover {
 
 .container-fluid{
   width: 100%;
+  overflow: hidden;
 }
 
 .container h2 {
