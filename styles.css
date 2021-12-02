@@ -146,7 +146,7 @@ a:hover {
   /* margin-bottom: 50px; */
 }
 
-#skills-container .container-fluid{
+.container-fluid{
   width: 100%;
 }
 
@@ -188,6 +188,7 @@ a:hover {
 .eighty-percent{
   width: 80%;
 }
+
 
 #experience-container{
   padding: 180px 0 100px 0;
@@ -277,7 +278,10 @@ a:hover {
 }
 
 .ed-borderr{
-  margin: 0 0 39px 0;
+  margin: 0 auto 39px auto;
+  /* align: center; */
+  width: 40%;
+  /* border-style: dotted; */
 }
 
 @media (min-width: 1399.98px) {
