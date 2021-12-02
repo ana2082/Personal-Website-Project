@@ -3,18 +3,15 @@ body {
   font-family: 'Quicksand', sans-serif;
   margin: 0;
 }
-
 a {
   text-decoration: none;
   color: #EDEDED;
   text-align: center;
 }
-
 p {
   font-size: 1.5em;
   width: 90%;
 }
-
 .navbar {
   padding: 16px 0 16px 0;
   position: fixed;
@@ -23,7 +20,6 @@ p {
   background-color: #222831;
   top: 0;
 }
-
 .logo {
   width: 100px;
   position: absolute;
@@ -31,7 +27,6 @@ p {
   top: 20px;
   bottom: 20px;
 }
-
 .tytle {
   margin: 0 auto 0 auto;
   text-align: center;
@@ -45,7 +40,6 @@ p {
   text-align: center;
   font-family: 'Quicksand', sans-serif;
 }
-
 .tytle h3 {
   font-family: 'Lobster Two', cursive;
   font-size: 1.5em;
@@ -72,14 +66,11 @@ p {
   margin: 10px auto 16px auto;
   text-align: center;
 }
-
 a:hover {
   color: #787A91;
   text-decoration: underline;
   text-decoration-thickness: 1.6px;
 }
-
-
 #middle-container {
   text-align: left;
   color: #222831;
@@ -88,53 +79,42 @@ a:hover {
   padding-top: 260px;
   margin-bottom: 50px;
 }
-
 .intro {
   margin-right: 30px;
   text-align: left;
   font-weight: bold;
 }
-
 .btn-dark {
   background-color: #222831;
 }
-
 .btn: hover {
   opacity: 0.1;
 }
-
 .btn {
   margin: 36px auto 18px auto;
   position: relative;
   border-radius: 14px;
 }
-
 .downloadbtn {
   width: 100%;
 }
-
 .downloadbtn a {
   width: 100%;
 }
-
 .my-picture {
   border-radius: 10px;
   width: 84%;
 }
-
 .visible{
   text-align: center;
 }
-
 .icon {
   width: 40px;
   margin: 15px 8px 8px;
 }
-
 .icon:hover {
   opacity: 0.84;
 }
-
 #skills-container {
   background-color: #222831;
   color: #EDEDED;
@@ -145,14 +125,12 @@ a:hover {
   padding: 145px 0 150px 0;
   /* margin-bottom: 50px; */
 }
-
 .container-fluid{
   width: 100%;
   overflow: hidden;
   padding-left: 0rem;
   padding-right: 0rem;
 }
-
 .container h2 {
   font-family: 'Quicksand', sans-serif;
   font-size: 3em;
@@ -162,37 +140,29 @@ a:hover {
   letter-spacing: 16px;
   margin-bottom: 40px;
 }
-
 .skills-container .container {
   padding: 0 15px 0 15px;
   margin: 0 auto 0 auto;
   width: 100%;
 }
-
 .skill-proficiency{
   height: 20px;
   margin: 16px 8px;
   background-color: #F9DFDC;
   border-radius: 10px;
 }
-
 .ninety-percent{
   width: 90%;
 }
-
 .eighty-five-percent{
   width: 85%;
 }
-
 .seventy-eight-percent{
   width: 78%;
 }
-
 .eighty-percent{
   width: 80%;
 }
-
-
 #experience-container{
   padding: 180px 0 100px 0;
 }
@@ -210,24 +180,19 @@ a:hover {
   padding-left: 80px;
   text-align: justify;
 }
-
 .exp-tag{
   font-weight: bold;
 }
-
 .exp-row{
   margin-bottom: 40px;
 }
-
 .bullet-1, .bullet-2, .bullet-3, .bullet-4, .bullet-5, .bullet-6, .bullet-7, .bullet-8{
   width:100%;
   margin-bottom: 20px;
 }
-
 #education-container{
   padding: 180px 0 100px 0;
 }
-
 .ed-header{
   color: #222831;
   text-align: center;
@@ -236,16 +201,13 @@ a:hover {
   letter-spacing: 16px;
   margin-bottom: 40px;
 }
-
 .dtu-image, .aps-image, .vdjs-image{
   width: 100%;
 }
-
 .dtu-container, .aps-container, .vdjs-container{
   padding-left: 80px;
   margin-bottom: 40px;
 }
-
 .ed-h1-text{
   color: #222831;
   font-family: 'Lora', serif;
@@ -254,32 +216,26 @@ a:hover {
   color: #222831;
   font-family: 'EB Garamond', serif;
 }
-
 .dtu-container h4{
   margin-top: 40px;
   font-weight: bold;
 }
-
 .aps-container h4{
   margin-top: 40px;
   font-weight: bold;
 }
-
 .twelve, .ten{
   font-weight: normal;
 }
-
 .vdjs-container h4{
   margin-top: 40px;
   font-weight: bold;
 }
-
 .ed-h5-text{
   color: #222831;
   font-family: 'Lobster Two', cursive;
   letter-spacing: 1.3px;
 }
-
 .ed-borderr{
   margin: 0 auto 39px auto;
   /* align: center; */
@@ -511,6 +467,9 @@ a:hover {
   #education-container{
     padding: 140px 24px;
   }
+  .ed-header{
+    font-size: 2.5em;
+  }
   .ed-img{
     width: 40%;
     text-align: center;
@@ -521,10 +480,7 @@ a:hover {
     padding-left: 15px;
     padding-right: 15px;
   }
-
-
 }
-
 
 /* sm->extra small devices-> portrait phones*/
 @media (max-width: 575.98px) {
